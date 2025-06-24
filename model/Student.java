@@ -9,8 +9,10 @@ public class Student {
         this.roomNo = roomNo;
     }
 
-    public String getStudent() {
-        return "Student ID: " + studentId + " | Room No: " + roomNo;
-
+    public int getStudentId() {
+        return studentId;
+    }
+    public int getRoomNo() {
+        return roomNo;
     }
 }

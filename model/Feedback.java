@@ -5,21 +5,31 @@ public class Feedback {
     private String Title;
     private String Description;
     private String Category;
-    private int StudentId;
+    private int studentId;
     private int roomId;
 
-    public Feedback(int feedBackId, String Title, String Description, String Category, int StudentId, int roomId) {
+    public Feedback(int feedBackId, String Title, String Description, String Category, int studentId, int roomId) {
 
         this.Title = Title;
         this.Description = Description;
         this.Category = Category;
-        this.StudentId = StudentId;
+        this.studentId = studentId;
         this.roomId = roomId;
     }
 
 
-   public String getFeedBackSummary() {
-        return Title +" "+ Description +" "+ Category;
+   public String getTitle() {
+        return Title;
    }
+
+    public String getDescription() {
+        return Description;
+    }
+    public String getCategory() {
+        return Category;
+    }
+    public int getStudentId () {
+        return studentId;
+    }
 }
 
