@@ -1,35 +1,37 @@
 package model;
 
 public class Feedback {
-    private int feedBackId;
-    private String Title;
-    private String Description;
-    private String Category;
+    private String title;
+    private String description;
+    private String category;
     private int studentId;
     private int roomId;
 
-    public Feedback(int feedBackId, String Title, String Description, String Category, int studentId, int roomId) {
-
-        this.Title = Title;
-        this.Description = Description;
-        this.Category = Category;
+    public Feedback(String title, String description, String category, int studentId, int roomId) {
+        this.title = title;
+        this.description = description;
+        this.category = category;
         this.studentId = studentId;
         this.roomId = roomId;
     }
 
-
-   public String getTitle() {
-        return Title;
-   }
+    public String getTitle() {
+        return title;
+    }
 
     public String getDescription() {
-        return Description;
+        return description;
     }
+
     public String getCategory() {
-        return Category;
+        return category;
     }
-    public int getStudentId () {
+
+    public int getStudentId() {
         return studentId;
     }
-}
 
+    public int getRoomId() {
+        return roomId;
+    }
+}
