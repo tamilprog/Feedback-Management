@@ -1,0 +1,17 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+out/
+*.class
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore database files (if any local DB used)
+*.db
