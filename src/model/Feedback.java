@@ -15,23 +15,9 @@ public class Feedback {
         this.roomId = roomId;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getCategory() {
-        return category;
-    }
-
-    public int getStudentId() {
-        return studentId;
-    }
-
-    public int getRoomId() {
-        return roomId;
-    }
+    public String getTitle() { return title; }
+    public String getDescription() { return description; }
+    public String getCategory() { return category; }
+    public int getStudentId() { return studentId; }
+    public int getRoomId() { return roomId; }
 }
